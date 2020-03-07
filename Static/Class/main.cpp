@@ -49,6 +49,8 @@ int main(int argc, const char * argv[]) {
 
     std::cout << s_Variable << std::endl;
     
+    std::cout << "Success" << std::endl;
+    
     /*Player player;
     player.x = 10;
     player.y = 10;
