@@ -14,10 +14,16 @@ public:
     Square(){
         X = 3;
         Y = 3;
+        std::cout << "Created Object" << std::endl;
     }
     Square(int x, int y){
         X = x;
         Y = y;
+        std::cout << "Created Object" << std::endl;
+
+    }
+    ~Square(){
+        std::cout << "Destroyed Object" << std::endl;
     }
 public:
     void Print(){
