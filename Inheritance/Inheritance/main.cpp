@@ -16,23 +16,44 @@ public:
         X += xa;
         Y += ya;
     }
+    
+    virtual std::string GetName(){
+        return "Entity";
+    }
 };
 
 class Person : public Entity{
 public:
-    const char* Name;
+    std::string Name;
+    
+    Person(const std::string& name) : Name(name){
+        
+    }
     
     void PrintLocation(){
         std::cout << Name << "'s Location: " << X << ", " << Y << std::endl;
     }
+    
+    std::string GetName() override {
+        return Name;
+    }
 };
+
+void PrintName(Entity* e){
+    std::cout << e->GetName() << std::endl;
+}
 
 int main(int argc, const char * argv[]) {
     
-    Person p;
-    p.Name = "Huy";
+    Entity* e = new Entity();
+    Person* p = new Person("Huy");
+    
+    PrintName(e);
+    PrintName(p);
+    
+    /*p.Name = "Huy";
     p.Move(10, 20);
-    p.PrintLocation();
+    p.PrintLocation();*/
     
     return 0;
 }
