@@ -10,6 +10,7 @@
 		AB240F9924559C44004287E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB240F9824559C44004287E8 /* main.cpp */; };
 		AB240FA024559EA2004287E8 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB240F9F24559EA2004287E8 /* Entity.cpp */; };
 		AB240FA224559EE5004287E8 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB240FA124559EE5004287E8 /* Player.cpp */; };
+		AB240FA42455AE7A004287E8 /* Printable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB240FA32455AE7A004287E8 /* Printable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		AB240F9824559C44004287E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AB240F9F24559EA2004287E8 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
 		AB240FA124559EE5004287E8 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AB240FA32455AE7A004287E8 /* Printable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Printable.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AB240F9824559C44004287E8 /* main.cpp */,
 				AB240F9F24559EA2004287E8 /* Entity.cpp */,
 				AB240FA124559EE5004287E8 /* Player.cpp */,
+				AB240FA32455AE7A004287E8 /* Printable.cpp */,
 			);
 			path = VirtualFunction;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				AB240FA024559EA2004287E8 /* Entity.cpp in Sources */,
 				AB240F9924559C44004287E8 /* main.cpp in Sources */,
 				AB240FA224559EE5004287E8 /* Player.cpp in Sources */,
+				AB240FA42455AE7A004287E8 /* Printable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

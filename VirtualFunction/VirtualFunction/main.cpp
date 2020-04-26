@@ -9,6 +9,11 @@
 #include <iostream>
 #include "Player.cpp"
 
+
+void PrintClassName(Printable* obj){
+    std::cout << obj->GetClassName() << std::endl;
+}
+
 int main(int argc, const char * argv[]) {
     Entity* e = new Entity();
     std::cout << e->GetName() << std::endl;
@@ -18,6 +23,9 @@ int main(int argc, const char * argv[]) {
     
     Entity* entity = new Player("QUoc HUy");
     std::cout << entity->GetName() << std::endl;
-
+    
+    PrintClassName(e);
+    PrintClassName(p);
+    
     return 0;
 }

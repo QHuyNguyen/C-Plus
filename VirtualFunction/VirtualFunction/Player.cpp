@@ -21,4 +21,8 @@ public:
     std::string GetName() override {
         return v_name;
     }
+    
+    std::string GetClassName() override {
+        return "Player";
+    }
 };

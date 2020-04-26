@@ -8,10 +8,14 @@
 
 #include <stdio.h>
 #include <iostream>
+#include "Printable.cpp"
 
-class Entity{
+class Entity : public Printable{
 public:
     virtual std::string GetName(){
+        return "print entity";
+    }
+    std::string GetClassName() override{
         return "Entity";
     }
 };
